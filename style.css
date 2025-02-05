@@ -33,3 +33,77 @@
     color: black;
     border-bottom: none;
 }
+
+.welcome menu {
+    display: flex;
+}
+
+.welcome .menu {
+    margin-top: 200px;
+}
+
+.welcome .text1 {
+    font-size: 45px;
+}
+
+.welcome .text2 {
+    margin-top: 15px;
+}
+
+.welcome .button {
+    background-color: #000;
+    color: rgb(168, 255, 75);
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.welcome .btn {
+    background-color: #000;
+    padding: 10px 6px;
+    border-radius: 35px;
+}
+
+.welcome .img {
+    display: flex;
+    margin-left: -150px;
+    margin-right: 40px;
+    margin-top: 125px;
+}
+
+.welcome img {
+    margin-left: 25px;
+}
+
+.welcome .landscape {
+    background-color: rgb(211, 245, 138);
+    padding: 10px 10px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.welcome .left {
+    display: flex;
+}
+
+.welcome .left img {
+    margin-right: -50px;
+}
+
+.welcome .left .text {
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.welcome .right {
+    margin-left: 625px;
+    margin-top: 10px;
+}
+
+.welcome button {
+    background-color: rgb(213, 227, 182);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+}
