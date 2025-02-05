@@ -1,0 +1,35 @@
+.header .menu {
+    display: flex;
+}
+
+.header .middle {
+    margin-left: 450px;
+    gap: 50px;
+}
+
+.header .left {
+    margin-left: 25px;
+}
+
+.header .right {
+    margin-left: 350px;
+}
+
+.header .button {
+    background-color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.header .btn {
+    background-color: #fff;
+    padding: 10px 19px;
+    border-radius: 35px;
+}
+
+.header .middle a{
+    margin-left: 15px;
+    color: black;
+    border-bottom: none;
+}
