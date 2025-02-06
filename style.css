@@ -51,6 +51,7 @@ body {
 
 .welcome .welcome__text1 {
     font-size: 45px;
+    font-weight: 1000;
 }
 
 .welcome .welcome__text2 {
@@ -70,6 +71,7 @@ body {
     background-color: #000;
     padding: 10px 6px;
     border-radius: 35px;
+    margin-left: -4px;
 }
 
 .welcome .welcome__img {
@@ -119,7 +121,7 @@ body {
 
 .creativity {
     background-color: #F5F5F5;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .creativity .creativity__button {
@@ -138,6 +140,7 @@ body {
     font-size: 40px;
     margin-left: 20px;
     margin-top: 10px;
+    font-weight: 1000;
 }
 
 .creativity__menu {
@@ -184,7 +187,7 @@ body {
 }
 
 .creativity__btns {
-    margin-top: 290px;
+    margin-top: 285px;
     margin-left: 450px;
 }
 
@@ -318,4 +321,123 @@ body {
 
 .footer__textlist {
     margin-top: -360px;
+}
+
+.work {
+    margin-bottom: 75px;
+}
+
+.work__image1 {
+    width: 41%;
+    margin-left: 20px;
+}
+
+.work__image2 {
+    width: 41%;
+    margin-left: 10px;
+}
+
+.work__imghalf {
+    width: 175px;
+    margin-left: 10px;
+}
+
+.work__button {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 2px solid #1B1B1B;
+    cursor: pointer;
+}
+
+.work__title {
+    font-weight: 1000;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.work__blackbtn {
+    background-color: #1B1B1B;
+    color: #ffffff;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: -235px;
+    margin-top: 50px;
+    border: 1px solid #1B1B1B;
+}
+
+.work__btn {
+    background-color: #1B1B1B;
+    padding: 10px 19px;
+    border: 1px solid #1B1B1B; 
+    border-radius: 35px;
+    margin-left: -4px;
+    cursor: pointer;
+}
+
+.work__up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.work__downbuttons {
+    margin-top: -685px;
+    margin-left: 415px;
+}
+
+.work__downbtn1 {
+    background-color: #d8d8d8;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.work__downbtn2 {
+    background-color: #d8d8d8;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-left: 420px;
+    cursor: pointer;
+}
+
+.work__beautiful {
+    display: flex;
+    margin-top: 520px;
+    margin-left: 50px;
+}
+
+.work__text1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 1000;
+}
+
+.work__bbutton {
+    background-color: #1B1B1B;
+    padding: 27px 27px;
+    border-radius: 35px;
+    margin-left: -70px;
+    margin-top: 10px;
+    border: 1px solid #1B1B1B;
+    cursor: pointer;
+}
+
+.work__btext {
+    background-color: #e0e0e0;
+    padding-left: 10px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
 }
