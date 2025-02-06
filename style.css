@@ -2,12 +2,16 @@ body {
     color: #1B1B1B;
 }
 
+.header {
+    margin-left: 20px;
+}
+
 .header .header__menu {
     display: flex;
 }
 
 .header .header__middle {
-    margin-left: 450px;
+    margin-left: 430px;
     gap: 50px;
 }
 
@@ -33,6 +37,7 @@ body {
     border-radius: 35px;
     cursor: pointer;
     border: 2px solid #1B1B1B;
+    margin-left: -4px;
 }
 
 .header .header__middle a{
@@ -61,7 +66,7 @@ body {
 .welcome .welcome__button {
     background-color: #1B1B1B;
     color: #DCE9B1;
-    padding: 10px 30px;
+    padding: 13px 30px;
     cursor: pointer;
     border-radius: 25px;
     margin-top: 25px;
@@ -69,7 +74,7 @@ body {
 
 .welcome .welcome__btn {
     background-color: #000;
-    padding: 10px 6px;
+    padding: 13px 9px;
     border-radius: 35px;
     margin-left: -4px;
 }
@@ -440,4 +445,54 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 15px;
+}
+
+.testimonials {
+    margin-left: 20px;
+}
+
+.testimonials__btn {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 2px solid #1B1B1B;
+    cursor: pointer;  
+}
+
+.testimonials__bottom2 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.testimonials__img {
+    border-radius: 25px;
+    width: 425px;
+}
+
+.testimonials__title {
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+.testimonials__name {
+    font-weight: 1000;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.testimonials__desc {
+    font-size: 14px;
+}
+
+.testimonials__rise {
+    margin-left: 20px;
+}
+
+.testimonials__importance {
+    margin-left: 20px;
 }
