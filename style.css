@@ -1,36 +1,43 @@
-.header .menu {
+body {
+    color: #1B1B1B;
+}
+
+.header .header__menu {
     display: flex;
 }
 
-.header .middle {
+.header .header__middle {
     margin-left: 450px;
     gap: 50px;
 }
 
-.header .left {
+.header .header__left {
     margin-left: 25px;
 }
 
-.header .right {
+.header .header__right {
     margin-left: 350px;
 }
 
-.header .button {
+.header .header__button {
     background-color: white;
     padding: 10px 30px;
     cursor: pointer;
     border-radius: 25px;
+    border: 2px solid #1B1B1B;
 }
 
-.header .btn {
+.header .header__btn {
     background-color: #fff;
     padding: 10px 19px;
     border-radius: 35px;
+    cursor: pointer;
+    border: 2px solid #1B1B1B;
 }
 
-.header .middle a{
+.header .header__middle a{
     margin-left: 15px;
-    color: black;
+    color: #1B1B1B;
     border-bottom: none;
 }
 
@@ -38,34 +45,34 @@
     display: flex;
 }
 
-.welcome .menu {
+.welcome .welcome__menu {
     margin-top: 200px;
 }
 
-.welcome .text1 {
+.welcome .welcome__text1 {
     font-size: 45px;
 }
 
-.welcome .text2 {
+.welcome .welcome__text2 {
     margin-top: 15px;
 }
 
-.welcome .button {
-    background-color: #000;
-    color: rgb(168, 255, 75);
+.welcome .welcome__button {
+    background-color: #1B1B1B;
+    color: #DCE9B1;
     padding: 10px 30px;
     cursor: pointer;
     border-radius: 25px;
     margin-top: 25px;
 }
 
-.welcome .btn {
+.welcome .welcome__btn {
     background-color: #000;
     padding: 10px 6px;
     border-radius: 35px;
 }
 
-.welcome .img {
+.welcome .welcome__img {
     display: flex;
     margin-left: -150px;
     margin-right: 40px;
@@ -76,29 +83,30 @@
     margin-left: 25px;
 }
 
-.welcome .landscape {
+.welcome .welcome__landscape {
     background-color: rgb(211, 245, 138);
     padding: 10px 10px;
     display: flex;
     margin-top: 20px;
 }
 
-.welcome .left {
+.welcome .welcome__left {
     display: flex;
 }
 
-.welcome .left img {
+.welcome .welcome__left img {
     margin-right: -50px;
 }
 
-.welcome .left .text {
+.welcome .welcome__text {
     margin-left: 75px;
     margin-top: 10px;
 }
 
-.welcome .right {
+.welcome .welcome__right {
     margin-left: 625px;
     margin-top: 10px;
+    color: #575757;
 }
 
 .welcome button {
@@ -106,21 +114,208 @@
     padding: 10px 20px;
     border: none;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 .creativity {
-    margin-top: 50px;
+    background-color: #F5F5F5;
+    padding-bottom: 100px;
 }
 
-.creativity .button {
+.creativity .creativity__button {
     margin-bottom: 10px;
     margin-left: 20px;
-    background-color: white;
+    background-color: #F5F5F5;
     padding: 5px 10px;
     border-radius: 20px;
+    cursor: pointer;
+    margin-top: 75px;
+    border: 2px solid #1B1B1B;
+    cursor: pointer;
 }
 
-.creativity .text {
+.creativity .creativity__text {
     font-size: 40px;
     margin-left: 20px;
+    margin-top: 10px;
+}
+
+.creativity__menu {
+    display: flex;
+    margin-left: 40px;
+    margin-top: -425px;
+}
+
+.creativity__about2 {
+    margin-left: 695px;
+    background-color: #d8d8d8;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 25px;
+}
+
+.creativity__about1 {
+    background-color: #d8d8d8;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 25px;
+}
+
+.creativity__txt {
+    margin-left: -510px;
+    font-size: 20px;
+}
+
+.creativity__images {
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.creativity__img2 {
+    margin-left: 400px;
+    border-radius: 30px;
+}
+.creativity__img {
+    border-radius: 30px;
+}
+
+.creativity__btns {
+    margin-top: 290px;
+    margin-left: 450px;
+}
+
+.creativity__left {
+    padding: 20px 20px;
+    border-radius: 35px;
+    border: 2px solid #1B1B1B;
+    cursor: pointer;
+}
+
+.creativity__right {
+    padding: 20px 20px;
+    border-radius: 35px;
+    margin-left: 10px;
+    border: 2px solid #1B1B1B;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1b1b1b;
+    color: white;
+}
+
+.footer__down {
+    display: flex;
+    margin-left: 25px;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.footer__downtxt2 {
+    margin-right: 25px;
+}
+
+.footer__up {
+    display: flex;
+    margin-left: 25px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.footer__second {
+    margin-top: 185px;
+}
+
+.footer__upright {
+    display: flex;
+    gap: 50px;
+    margin-right: 60px;
+}
+
+.footer__name {
+    font-size: 20px;
+}
+
+.footer__link {
+    color: white;
+    margin-top: 15px;
+    border: 0px solid ;
+}
+
+.footer__button {
+    margin-top: 13px;
+    background-color: #1B1B1B;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.footer__list {
+    display: grid;
+}
+
+.footer__uptxt {
+    margin-top: 15px;
+}
+
+.footer__first {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footer__image {
+    width: 97%;
+    border-radius: 25px;
+}
+
+.footer__title {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.footer__btn {
+    background-color: #d8d8d8;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.footer__adresstext {
+    background-color: #F5F5F5;
+    border: 1px solid #EBEBEB;
+    color: #1b1b1b;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin-left: -40px;
+    padding-right: 185px;
+    border-radius: 15px;
+}
+
+.footer__adress {
+    margin-left: -27px;
+    background-color: #1B1B1B;
+    border-radius: 20px;
+    padding: 4px 11px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer__adress img {
+    margin-left: 2px;
+}
+
+.footer__textlist {
+    margin-top: -360px;
 }
