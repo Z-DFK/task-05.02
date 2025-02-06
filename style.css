@@ -468,6 +468,18 @@ body {
     margin-bottom: 50px;
 }
 
+.testimonials__top1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.testimonials__titletop {
+    margin-right: 75px;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
 .testimonials__img {
     border-radius: 25px;
     width: 425px;
@@ -495,4 +507,42 @@ body {
 
 .testimonials__importance {
     margin-left: 20px;
+}
+
+.testimonials__top2 {
+    margin-bottom: 150px;
+}
+
+.testimonials__image1 {
+    width: 95%;
+}
+
+.testimonials__image2 {
+    margin-bottom: -440px;
+    width: 93%;
+    margin-left: 13px;
+}
+
+.testimonials__image3 {
+    margin-bottom: -480px;
+    width: 90%;
+    margin-left: 39px;
+}
+
+.testimonials__image4 {
+    margin-bottom: -515px;
+    width: 88%;
+    margin-left: 51px;
+}
+
+.testimonials__collection {
+    font-weight: 1000;
+    font-size: 35px;
+    margin-bottom: 100px;
+    margin-top: -350px;
+    margin-left: 25px;
+}
+
+.testimonials__message {
+    margin-left: 25px;
 }
