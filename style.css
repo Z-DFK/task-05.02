@@ -95,10 +95,13 @@ body {
     padding: 10px 10px;
     display: flex;
     margin-top: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .welcome .welcome__left {
     display: flex;
+    margin-left: 5px;
 }
 
 .welcome .welcome__left img {
@@ -127,11 +130,13 @@ body {
 .creativity {
     background-color: #F5F5F5;
     padding-bottom: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .creativity .creativity__button {
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
     background-color: #F5F5F5;
     padding: 5px 10px;
     border-radius: 20px;
@@ -143,7 +148,7 @@ body {
 
 .creativity .creativity__text {
     font-size: 40px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 10px;
     font-weight: 1000;
 }
@@ -214,6 +219,10 @@ body {
 .footer {
     background-color: #1b1b1b;
     color: white;
+    margin-top: -30px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .footer__down {
@@ -547,36 +556,17 @@ body {
     margin-left: 25px;
 }
 
-.faq {
-    background-color: #F5F5F5;
-}
-
-.faq__container {
-    margin-left: 20px;
-}
-
-.faq__btn {
-    margin-bottom: 10px;
-    background-color: #F5F5F5;
-    padding: 5px 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    border: 2px solid #1B1B1B;
-    cursor: pointer;  
-}
-
-
 .service {
     background-color: #F5F5F5;
     padding-bottom: 70px;
     margin-bottom: 50px;
     padding-top: 75px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .service__container {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .service__btn {
@@ -701,4 +691,55 @@ body {
     padding: 5px 13px;
     border: none;
     cursor: pointer;
+}
+
+.plans {
+    background-color: #F5F5F5;
+    padding-top: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.plans__container {
+    margin-left: 30px;
+}
+
+.plans__top {
+    text-align: center;
+}
+
+.plans__topbutton {
+    background-color: #F5F5F5;
+    padding: 8px 9px;
+    cursor: pointer;
+    border: 1px solid #1B1B1B;
+    border-radius: 20px;
+}
+
+.plans__title {
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 25px;
+}
+
+.faq {
+    background-color: #F5F5F5;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.faq__container {
+    margin-left: 30px;
+}
+
+.faq__btn {
+    margin-bottom: 10px;
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 2px solid #1B1B1B;
+    cursor: pointer;  
 }
