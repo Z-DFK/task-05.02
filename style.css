@@ -33,7 +33,7 @@ body {
 
 .header .header__btn {
     background-color: #fff;
-    padding: 10px 19px;
+    padding: 10px 18px;
     border-radius: 35px;
     cursor: pointer;
     border: 2px solid #1B1B1B;
@@ -43,7 +43,7 @@ body {
 .header .header__middle a{
     margin-left: 15px;
     color: #1B1B1B;
-    border-bottom: none;
+    text-decoration: none;
 }
 
 .welcome menu {
@@ -74,7 +74,7 @@ body {
 
 .welcome .welcome__btn {
     background-color: #000;
-    padding: 13px 9px;
+    padding: 13px 8px;
     border-radius: 35px;
     margin-left: -4px;
 }
@@ -192,8 +192,9 @@ body {
     margin-left: 400px;
     border-radius: 30px;
 }
-.creativity__img {
+.creativity__img1 {
     border-radius: 30px;
+    margin-left: 5px;
 }
 
 .creativity__btns {
@@ -252,7 +253,7 @@ body {
 .footer__upright {
     display: flex;
     gap: 50px;
-    margin-right: 60px;
+    margin-right: 70px;
 }
 
 .footer__name {
@@ -263,6 +264,7 @@ body {
     color: white;
     margin-top: 15px;
     border: 0px solid ;
+    text-decoration: none;
 }
 
 .footer__button {
@@ -388,7 +390,7 @@ body {
 
 .work__btn {
     background-color: #1B1B1B;
-    padding: 10px 19px;
+    padding: 10px 18px;
     border: 1px solid #1B1B1B; 
     border-radius: 35px;
     margin-left: -4px;
@@ -864,6 +866,8 @@ body {
     background-color: #F5F5F5;
     margin-left: -10px;
     margin-right: -10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .faq__container {
@@ -880,4 +884,45 @@ body {
     margin-bottom: 20px;
     border: 2px solid #1B1B1B;
     cursor: pointer;  
+}
+
+.faq__down {
+    display: flex;
+    margin-top: 50px;
+}
+
+.faq__right {
+    margin-left: 25px;
+}
+
+.faq__question {
+    font-weight: 1000;
+    font-size: 23px;
+    margin-top: -10px;
+}
+
+.faq__answer {
+    margin-top: 15px;
+    display: none;
+}
+.faq__answer:active {
+    margin-top: 15px;
+    transition: 0.4s;
+}
+
+.faq__button {
+    background-color: #1B1B1B;
+    padding: 15px 15px;
+    margin-left: 555px;
+    margin-bottom: -550px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #1B1B1B;
+}
+
+.faq__object {
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 25px 25px;
+    border-radius: 15px;
 }
